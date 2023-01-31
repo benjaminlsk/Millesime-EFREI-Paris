@@ -5,14 +5,50 @@ export class Header extends Component {
   render() {
     return (
       <header>
-        <div>
+        <div className="flex items-center space-x-5">
           <Link href="/post">
-            <img
-              className="w-44 object-contain cursor-pointer"
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMcAAACVCAMAAADbnR4IAAAAbFBMVEX/////AAD/4OD/8/P/MzP/7Oz/1NT/JCT/PT3/MDD/KSn/2dn/5eX/zs7/ycn/LCz/amr/+fn/xMT/tLT/OTn/Ghr/rKz/u7v/kZH/ERH/cXH/TU3/pqb/R0f/goL/WVn/m5v/e3v/iIj/YmKuWyCNAAACYklEQVR4nO3aa2+CMBiG4dLSqpwP6hBUFP//f5yFbZlZVqo2eev2XN+W8KH3CNDWMgYAAAAAAAAAAAAAAAAAAAAAAADeKIVMOI+VStMsq0ZZmioVc55IUVIPzyxJ69Ox6JbL5ToMV3keLbTNF/1XlOerMFxfr+ku52ZbcepB3yrVEAaP2bWZoB7+p+T8YMTkklIHTOTqqYwg2LxRJ2jlkxWaD3fk7KCjk9QVLI0cdAQ1dQY7ucgICuqXliicdOwS4o7k2ZfVB0Xcwd1kkD8gmaOOgbhj66ijJ+5oHHUsiDuMr6sitw8h7uhMY5Pq/Codxq85v87oF6/RYRzbuEza2y1NiGdY8x1MDhuLDuKlodXY0st8B/EH3fJ/nO3mOjLCCGbdcZ0XL80dFVmCJqw7GB+M19Kube/oYEwdDNfSThTlPR2M1d2vz8mWYvhf7uxg6a8zlZfq2B88vR/3PB9lZfqy0z4f5s2rmw7VGq8l3ouz7RDNzP4Q7ffDtqM2RwSv8T2vjKuUif/zK36cr/B/vls2disp4vWHcQXOmaisIgLy9aB5fV7Z75oSdxg/Cr3t4py+w9X+VU7cMf9hsEO9n6gcdVDv7/6V/Xa5dtMRE3cI8yzW1ob69yi2d9LRUv8+yNSjJzJueHASwLydY6cjvx1uzjNQP+WjcmancNaC+sfaD7KZ3b01ab24G6N43z8YcWiUB8/GdyXP6tPQ9gd9Im46EpdH0XQqTh+Fi/LpMNxaH4fri+NpW8WeJfxUCiH1GUV9SHEUj2cTpfD9dCIAAAAAAAAAAAAAAAAAAAAAAMB/8w4ekx8igXUoZAAAAABJRU5ErkJggg=="
-              alt="logo-millésime"
-            />
+            <svg
+              preserveAspectRatio="none"
+              width="50"
+              height="50"
+              viewBox="0 0 1600 542"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <defs>
+                <path
+                  d="M.616 58.54c195.789-182.952 372.846 129.67 848.318 39.192C1365.091-.49 1320.108 455.412 1600 529.887v11.99H.164C-.383 449.98.616 76.033.616 58.54z"
+                  id="a"
+                />
+              </defs>
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <mask id="b" fill="#fff">
+                  <use xlinkHref="#a" />
+                </mask>
+                <use fill="#E2271E" xlinkHref="#a" />
+                <path
+                  d="M1 52.308c100 105.72 261 159.588 483 161.605 333 3.024 592-102.84 733.5 19.876 94.333 81.81 222.167 104.712 383.5 68.704V-3H0"
+                  fill-opacity=".3"
+                  fill="#FFF"
+                  mask="url(#b)"
+                />
+                <path
+                  d="M0 128.446c133-.911 230.5-25.069 292.5-72.471 93-71.105 395 160.44 475.5 166.821S884 86.057 1024.5 78.31C1165 70.56 1307 520 1600 530.005V-1H-1l1 129.446z"
+                  fill-opacity=".3"
+                  fill="#FFF"
+                  mask="url(#b)"
+                />
+              </g>
+            </svg>
           </Link>
+          <div className="hidden md:inline-flex items-center space-x-5">
+            <h3 className="text-white px-4 py-1">About</h3>
+            <h3 className="text-white px-4 py-1">Contact</h3>
+            <h3 className="text-white bg-green-600 px-4 py-1 rounded-full">
+              Follow
+            </h3>
+          </div>
         </div>
       </header>
     );
