@@ -10,7 +10,7 @@
         <img
           src="https://images.unsplash.com/photo-1580929753530-ef52238116c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
+          className=" absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
         />
         <svg
           viewBox="0 0 1097 845"
@@ -62,8 +62,8 @@
         </svg>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-bold tracking-tight text-red-700 sm:text-6xl">Millésime </h2>
-            <p className="mt-6 text-lg leading-8 text-red-500">
+            <h2 className="text-4xl ml-6 font-bold tracking-tight text-white sm:text-6xl">Millésime </h2>
+            <p className="mt-6 ml-10 text-lg leading-8 text-white">
              Association d'oenologie et de dégustation de vin
             </p>
           </div>
@@ -73,8 +73,8 @@
             <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
               {stats.map((stat) => (
                 <div key={stat.name} className="flex flex-col-reverse">
-                  <dt className="text-base leading-7 text-gray-300">{stat.name}</dt>
-                  <dd className="text-2xl font-bold leading-9 tracking-tight text-white">{stat.value}</dd>
+                  <dt className="text-base ml-10 leading-7 text-gray-300">{stat.name}</dt>
+                  <dd className="text-2xl ml-10 font-bold leading-9 tracking-tight text-white">{stat.value}</dd>
                 </div>
               ))}
             </dl>
