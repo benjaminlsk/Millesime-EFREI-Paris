@@ -7,7 +7,6 @@ import {
   CursorArrowRaysIcon,
   LifebuoyIcon,
   PhoneIcon,
-  PlayIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
@@ -86,12 +85,11 @@ export default function Header() {
   return (
     <Popover className="relative bg-white">
       <div className="mx-10 max-w-5xl px-6">
-        <div className="flex items-center mx-10 justify-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+        <div className="flex items-center mx-7 justify-center border-b-2 border-gray-100 py-5 md:justify-start md:space-x-7">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="#">
               <span className="sr-only">Your Company</span>
               <svg preserveAspectRatio="none" width="50" height="50" viewBox="0 0 1600 542" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><defs><path d="M.616 58.54c195.789-182.952 372.846 129.67 848.318 39.192C1365.091-.49 1320.108 455.412 1600 529.887v11.99H.164C-.383 449.98.616 76.033.616 58.54z" id="a"/></defs><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlinkHref="#a"/></mask><use fill="#E2271E" xlinkHref="#a"/><path d="M1 52.308c100 105.72 261 159.588 483 161.605 333 3.024 592-102.84 733.5 19.876 94.333 81.81 222.167 104.712 383.5 68.704V-3H0" fill-opacity=".3" fill="#FFF" mask="url(#b)"/><path d="M0 128.446c133-.911 230.5-25.069 292.5-72.471 93-71.105 395 160.44 475.5 166.821S884 86.057 1024.5 78.31C1165 70.56 1307 520 1600 530.005V-1H-1l1 129.446z" fill-opacity=".3" fill="#FFF" mask="url(#b)"/></g></svg>
-
             </a>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
@@ -107,7 +105,7 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-red-700 focus:ring-offset-2'
                     )}
                   >
                     <span>Association</span>
@@ -138,7 +136,7 @@ export default function Header() {
                               href={item.href}
                               className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                             >
-                              <item.icon className="h-6 w-6 flex-shrink-0 text-indigo-600" aria-hidden="true" />
+                              <item.icon className="h-6 w-6 flex-shrink-0 text-red-700" aria-hidden="true" />
                               <div className="ml-4">
                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
                                 <p className="mt-1 text-sm text-gray-500">{item.description}</p>
@@ -171,7 +169,7 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-red-700 focus:ring-offset-2'
                     )}
                   >
                     <span>Events</span>
@@ -202,7 +200,7 @@ export default function Header() {
                               href={item.href}
                               className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                             >
-                              <item.icon className="h-6 w-6 flex-shrink-0 text-indigo-600" aria-hidden="true" />
+                              <item.icon className="h-6 w-6 flex-shrink-0 text-red-700" aria-hidden="true" />
                               <div className="ml-4">
                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
                                 <p className="mt-1 text-sm text-gray-500">{item.description}</p>
@@ -224,7 +222,7 @@ export default function Header() {
                             </ul>
                           </div>
                           <div className="mt-5 text-sm">
-                            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                          <a href="#" className="font-medium text-red-700 hover:text-red-500">
                               View all posts
                               <span aria-hidden="true"> &rarr;</span>
                             </a>
@@ -243,7 +241,7 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-red-700 focus:ring-offset-2'
                     )}
                   >
                     <span>Contact</span>
@@ -274,7 +272,7 @@ export default function Header() {
                               href={item.href}
                               className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                             >
-                              <item.icon className="h-6 w-6 flex-shrink-0 text-indigo-600" aria-hidden="true" />
+                              <item.icon className="h-6 w-6 flex-shrink-0 text-red-700" aria-hidden="true" />
                               <div className="ml-4">
                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
                                 <p className="mt-1 text-sm text-gray-500">{item.description}</p>
@@ -296,7 +294,7 @@ export default function Header() {
                             </ul>
                           </div>
                           <div className="mt-5 text-sm">
-                            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                            <a href="#" className="font-medium text-red-700 hover:text-red-500">
                               View all posts
                               <span aria-hidden="true"> &rarr;</span>
                             </a>
@@ -315,7 +313,7 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-red-700 focus:ring-offset-2'
                     )}
                   >
                     <span>Vins</span>
@@ -346,7 +344,7 @@ export default function Header() {
                               href={item.href}
                               className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                             >
-                              <item.icon className="h-6 w-6 flex-shrink-0 text-indigo-600" aria-hidden="true" />
+                              <item.icon className="h-6 w-6 flex-shrink-0 text-red-700" aria-hidden="true" />
                               <div className="ml-4">
                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
                                 <p className="mt-1 text-sm text-gray-500">{item.description}</p>
@@ -368,7 +366,7 @@ export default function Header() {
                             </ul>
                           </div>
                           <div className="mt-5 text-sm">
-                            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                          <a href="#" className="font-medium text-red-700 hover:text-red-500">
                               View all posts
                               <span aria-hidden="true"> &rarr;</span>
                             </a>
@@ -387,7 +385,7 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+                      'group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-red-700 focus:ring-offset-2'
                     )}
                   >
                     <span>Les bases</span>
@@ -418,7 +416,7 @@ export default function Header() {
                               href={item.href}
                               className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                             >
-                              <item.icon className="h-6 w-6 flex-shrink-0 text-indigo-600" aria-hidden="true" />
+                              <item.icon className="h-6 w-6 flex-shrink-0 text-red-700" aria-hidden="true" />
                               <div className="ml-4">
                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
                                 <p className="mt-1 text-sm text-gray-500">{item.description}</p>
@@ -440,7 +438,7 @@ export default function Header() {
                             </ul>
                           </div>
                           <div className="mt-5 text-sm">
-                            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                          <a href="#" className="font-medium text-red-700 hover:text-red-500">
                               View all posts
                               <span aria-hidden="true"> &rarr;</span>
                             </a>
@@ -479,7 +477,7 @@ export default function Header() {
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-700">
                     <span className="sr-only">Close menu</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -493,7 +491,7 @@ export default function Header() {
                       href={item.href}
                       className="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50"
                     >
-                      <item.icon className="h-6 w-6 flex-shrink-0 text-indigo-600" aria-hidden="true" />
+                      <item.icon className="h-6 w-6 flex-shrink-0 text-red-700" aria-hidden="true" />
                       <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                     </a>
                   ))}
