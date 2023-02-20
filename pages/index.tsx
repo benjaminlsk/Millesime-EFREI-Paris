@@ -1,5 +1,7 @@
 import Head from "next/head";
+import BackgroundParalax from "../components/BackgroungParalax";
 import Header from "../components/Header";
+import Team from "../components/Team";
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       </Head>
 
       <Header />
+      <BackgroundParalax />
+      <Team />
     </div>
   );
 }
