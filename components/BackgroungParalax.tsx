@@ -1,7 +1,7 @@
 const stats = [
-  { name: "Membres", value: "80" },
-  { name: "Date de création", value: "1000" },
-  { name: "Event par mois", value: "xxx" },
+  { name: "Membres", value: "80+" },
+  { name: "Date de création", value: "1998" },
+  { name: "Vins dégustés", value: "100+" },
 ];
 
 export default function BackgroundParalax() {

@@ -99,7 +99,7 @@ export default function Body() {
                       }
                     >
                       {" "}
-                      Rejoint nous ici!{" "}
+                      Rejoins nous ici!{" "}
                     </p>
                   </Link>
                 </div>
