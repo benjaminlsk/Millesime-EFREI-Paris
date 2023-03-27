@@ -42,7 +42,7 @@ const events = [
   },
 ];
 const recentPosts = [
-  { id: 1, name: "Photos Franquette 18/02/2022", href: "#" },
+  { id: 1, name: "Dégustation 01/03/2023", href: "https://efreipicturestudio.fr/gallery/degustation-de-vin-millesime-2023" },
   { id: 2, name: "Photos Dégustation 11/02/2022", href: "#" },
 ];
 
