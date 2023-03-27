@@ -55,7 +55,7 @@ export default function Team() {
             Notre équipe
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Voici l&apos;équipe à la tête de l'asso!
+            Voici l&lsquo;équipe à la tête de l'asso!
           </p>
         </div>
       </div>
