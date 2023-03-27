@@ -53,7 +53,7 @@ export default function Body() {
                   <strong>@Keskongout</strong>.
                 </Link>{" "}
                 <br />
-                Millésime c'est avant tout:
+                Millésime c&apos;est avant tout:
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
