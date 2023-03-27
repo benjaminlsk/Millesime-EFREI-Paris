@@ -20,7 +20,7 @@ import { Fragment, useState } from "react";
 const events = [
   {
     id: "1",
-    name: "Passation du bureau",
+    name: "Franquette",
     imageUrl: "../pdp.png",
     startDatetime: "2023-04-05T17:00",
     endDatetime: "2023-04-05T21:30",
