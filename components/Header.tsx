@@ -43,7 +43,6 @@ const events = [
 ];
 const recentPosts = [
   { id: 1, name: "Dégustation 01/03/2023", href: "https://efreipicturestudio.fr/gallery/degustation-de-vin-millesime-2023" },
-  { id: 2, name: "Photos Dégustation 11/02/2022", href: "#" },
 ];
 
 function classNames(...classes: string[]) {
@@ -197,15 +196,6 @@ export default function Header() {
                                 </li>
                               ))}
                             </ul>
-                          </div>
-                          <div className="mt-5 text-sm">
-                            <a
-                              href="#"
-                              className="font-medium text-red-700 hover:text-red-500"
-                            >
-                              View all posts
-                              <span aria-hidden="true"> &rarr;</span>
-                            </a>
                           </div>
                         </div>
                       </div>
