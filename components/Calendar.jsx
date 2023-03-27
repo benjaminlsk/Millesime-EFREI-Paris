@@ -1,5 +1,4 @@
 import { Menu, Transition } from "@headlessui/react";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { ChevronLeft, ChevronRight } from "@styled-icons/heroicons-outline";
 import {
   add,
@@ -57,7 +56,7 @@ export default function Calendar() {
   );
 
   return (
-    <div className="pt-16 bg-white">
+    <div className="pt-16 bg-white" id="Calendar">
       <div className="max-w-md px-4 mx-auto sm:px-7 md:max-w-4xl md:px-6">
         <div className="md:grid md:grid-cols-2 md:divide-x md:divide-gray-200">
           <div className="md:pr-14">
@@ -174,7 +173,7 @@ function Event({ events }){
       <img
         src={events.imageUrl}
         alt=""
-        className="flex-none w-10 h-10 rounded-full"
+        className="flex-none w-16 h-10 rounded-full"
       />
       <div className="flex-auto">
         <p className="text-gray-900">{events.name}</p>

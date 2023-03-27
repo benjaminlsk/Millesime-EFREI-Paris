@@ -51,10 +51,10 @@ export default function Team() {
     <div className="py-24 sm:py-32 bg-gray-50">
       <div className="mx-10 grid max-w-7xl gap-y-20 gap-x-8 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" id="Team">
             Notre équipe
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600" id="Team">
+          <p className="mt-6 text-lg leading-8 text-gray-600">
             Voici l&lsquo;équipe à la tête de l&lsquo;asso!
           </p>
         </div>

@@ -8,7 +8,7 @@ import Team from "../components/Team";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen py-2 px-3">
+    <div className="flex flex-col min-h-screen py-2 px-3 w-full">
       <Head>
         <title>Millésime EFREI</title>
         <link rel="icon" href="/favicon.ico" />
