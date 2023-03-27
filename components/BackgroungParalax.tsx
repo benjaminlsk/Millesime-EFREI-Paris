@@ -66,7 +66,7 @@ export default function BackgroundParalax() {
             Millésime{" "}
           </h2>
           <p className="mt-6 ml-10 text-lg leading-8 text-white">
-            Association d'oenologie et de dégustation de vin
+            Association d&apos;oenologie et de dégustation de vin
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

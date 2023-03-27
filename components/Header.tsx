@@ -10,6 +10,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 const association = [
   {
@@ -86,9 +87,9 @@ export default function Header() {
       <div className="">
         <div className="flex fixed  z-20 bg-white w-full items-center px-16 justify-center border-b border-gray-100 py-5 md:justify-start md:space-x-7">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="/">
+            <Link href="/">
               <img src="../pdp.png" alt="logo" className="h-20 w-20" />
-            </a>
+            </Link>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">

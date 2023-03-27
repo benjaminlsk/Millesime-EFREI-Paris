@@ -31,7 +31,7 @@ export default function Body() {
                 A Propos
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Nous te souhaitons la bienvenue dans l'association Millésime.
+                Nous te souhaitons la bienvenue dans l&apos;association Millésime.
               </p>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Body() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-                Ici, tu auras l'occasion de déguster de nombreux vins, fromages
+                Ici, tu auras l&apos;occasion de déguster de nombreux vins, fromages
                 et charcuteries du terroir venant de notre caviste préféré{" "}
                 <Link href="https://www.instagram.com/keskongout/?hl=fr">
                   <strong>@Keskongout</strong>.
@@ -66,8 +66,8 @@ export default function Body() {
                       De bons moments entre amis !
                     </strong>{" "}
                     De nombreuses franquettes sont organisées tout au long de
-                    l'année afin de partager un moment chaleureux et convivial
-                    autour d'un bon verre.
+                    l&apos;année afin de partager un moment chaleureux et convivial
+                    autour d&apos;un bon verre.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -79,15 +79,15 @@ export default function Body() {
                     <strong className="font-semibold text-gray-900">
                       Apprendre plus sur le vin.{" "}
                     </strong>{" "}
-                    Au cours des franquettes et des dégustations que l'on
+                    Au cours des franquettes et des dégustations que l&apos;on
                     organise, tu feras découvrir de nouvelles saveurs à ton
                     palais afin ta curiosité gustative.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                Si toi aussi, tu es intéressé par l'oenologie et que tu veux
-                passer de bons moments, n'hésite plus et rejoint Millésime!{" "}
+                Si toi aussi, tu es intéressé par l&apos;oenologie et que tu veux
+                passer de bons moments, n&apos;hésite plus et rejoint Millésime!{" "}
                 <br />
                 <div className="flex justify-center pt-3">
                   <Link href="https://discord.gg/AzMkFVF5dj">
