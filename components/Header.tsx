@@ -15,14 +15,14 @@ import Link from "next/link";
 const association = [
   {
     name: "Description",
-    description: "Discorver what we do!",
-    href: "#",
+    description: "A propos de Millésime",
+    href: "#A-Propos",
     icon: ChartBarIcon,
   },
   {
     name: "Membres",
-    description: "Discover who we are!",
-    href: "#",
+    description: "Qui sommes nous ?",
+    href: "#Team",
     icon: CursorArrowRaysIcon,
   },
 ];
