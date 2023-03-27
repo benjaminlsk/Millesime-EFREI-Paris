@@ -6,7 +6,7 @@
   
   export default function BackgroundParalax() {
     return (
-      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+      <div className="isolate overflow-hidden mt-16 bg-gray-900 py-24 sm:py-32 relative">
         <img
           src="https://images.unsplash.com/photo-1580929753530-ef52238116c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
           alt=""

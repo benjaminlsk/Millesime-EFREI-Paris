@@ -1,6 +1,7 @@
 import Head from "next/head";
 import BackgroundParalax from "../components/BackgroungParalax";
-import Picker from "../components/Calendar";
+import Body from "../components/Body";
+import Calendar from "../components/Calendar";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Team from "../components/Team";
@@ -14,8 +15,9 @@ export default function Home() {
       </Head>
       <Header />
       <BackgroundParalax />
+      <Body />
       <Team />
-      <Picker />
+      <Calendar />
       <Footer />
     </div>
   );

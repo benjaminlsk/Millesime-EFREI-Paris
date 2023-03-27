@@ -70,12 +70,14 @@ const people = [
             {people.map((person) => (
             <>
                 <li key={person.name}>
-                <div className=" grid items-center text-center bg-white" >
-                      <img className="h-30 w-30 rounded " src={person.imageUrl} alt="" /> 
+                <div className="grid items-center text-center bg-white rounded shadow-xl" >
+                      <div className="flex justify-center"> 
+                      <img className="h-56 w-56 rounded" src={person.imageUrl} alt="" /> 
+                      </div>
                     <div className= "rounded ">                 
                       <h3 className="text-base font-semibold pb-1 leading-7 tracking-tight text-gray-900 text-bold">{person.name}</h3>
                       <div
-                        className="text-xs text-center inline-flex items-center font-bold uppercase px-3 py-2 bg-red-200 text-white rounded-full"
+                        className="text-xs text-center inline-flex items-center font-bold uppercase px-3 py-2 mb-2 bg-red-400 text-white rounded-full"
                       >
                         {person.role}
                       </div>

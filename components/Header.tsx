@@ -84,12 +84,11 @@ function classNames(...classes) {
 export default function Header() {
   return (
     <Popover className="relative bg-white">
-      <div className="mx-10 max-w-5xl px-6">
-        <div className="flex items-center mx-7 justify-center border-b-2 border-gray-100 py-5 md:justify-start md:space-x-7">
+      <div className="">
+        <div className="flex fixed  z-20 bg-white w-full items-center px-16 justify-center border-b border-gray-100 py-5 md:justify-start md:space-x-7">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
-              <span className="sr-only">Your Company</span>
-              <svg preserveAspectRatio="none" width="50" height="50" viewBox="0 0 1600 542" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><defs><path d="M.616 58.54c195.789-182.952 372.846 129.67 848.318 39.192C1365.091-.49 1320.108 455.412 1600 529.887v11.99H.164C-.383 449.98.616 76.033.616 58.54z" id="a"/></defs><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlinkHref="#a"/></mask><use fill="#E2271E" xlinkHref="#a"/><path d="M1 52.308c100 105.72 261 159.588 483 161.605 333 3.024 592-102.84 733.5 19.876 94.333 81.81 222.167 104.712 383.5 68.704V-3H0" fill-opacity=".3" fill="#FFF" mask="url(#b)"/><path d="M0 128.446c133-.911 230.5-25.069 292.5-72.471 93-71.105 395 160.44 475.5 166.821S884 86.057 1024.5 78.31C1165 70.56 1307 520 1600 530.005V-1H-1l1 129.446z" fill-opacity=".3" fill="#FFF" mask="url(#b)"/></g></svg>
+            <a href="/">
+              <img src="../pdp.png" alt="logo" className='h-20 w-20'/>
             </a>
           </div>
           <div className="-my-2 -mr-2 md:hidden">
