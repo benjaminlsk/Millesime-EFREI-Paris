@@ -77,7 +77,7 @@ const recentPosts = [
   { id: 2, name: "Photos Dégustation 11/02/2022", href: "#" },
 ];
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
