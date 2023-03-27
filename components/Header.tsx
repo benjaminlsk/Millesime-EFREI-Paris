@@ -31,14 +31,14 @@ const events = [
   {
     name: "Events",
     description:
-      "See what meet-ups and other events we might be planning near you.",
+      "Soit au courant de tous nos events!",
     href: "#Calendar",
     icon: CalendarIcon,
   },
   {
     name: "Photos",
-    description: "Get all the photos from our events.",
-    href: "#",
+    description: "Vient voir toutes nos photos",
+    href: "https://efreipicturestudio.fr/gallery",
     icon: LifebuoyIcon,
   },
 ];
