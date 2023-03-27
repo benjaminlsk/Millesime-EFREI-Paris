@@ -53,7 +53,7 @@ export default function Header() {
   return (
     <Popover className="relative bg-white">
       <div className="">
-        <div className="flex fixed  z-20 bg-white w-full items-center px-16 justify-center border-b border-gray-100 py-5 md:justify-start md:space-x-7">
+        <div className="flex fixed z-20 bg-white w-full items-center px-16 justify-center border-b border-gray-100 py-5 md:justify-start md:space-x-7">
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/">
               <img src="../pdp.png" alt="logo" className="h-20 w-32" />

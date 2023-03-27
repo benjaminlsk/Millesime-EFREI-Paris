@@ -1,7 +1,6 @@
 import {
   CloudArrowUpIcon,
   LockClosedIcon,
-  ServerIcon,
 } from "@heroicons/react/20/solid";
 import Link from "next/link";
 import { useState } from "react";
@@ -49,7 +48,7 @@ export default function Body() {
               <p>
                 Ici, tu auras l&apos;occasion de déguster de nombreux vins, fromages
                 et charcuteries du terroir venant de notre caviste préféré{" "}
-                <Link href="https://www.instagram.com/keskongout/?hl=fr">
+                <Link href="https://www.instagram.com/keskongout/?hl=fr" className="hover:text-indigo-600 ">
                   <strong>@Keskongout</strong>.
                 </Link>{" "}
                 <br />
@@ -57,10 +56,7 @@ export default function Body() {
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon
-                    className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                    aria-hidden="true"
-                  />
+                 <img src="./amitié.png" className="h-10 w-10" alt="" />
                   <span>
                     <strong className="font-semibold text-gray-900">
                       De bons moments entre amis !
@@ -71,9 +67,9 @@ export default function Body() {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <LockClosedIcon
-                    className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                    aria-hidden="true"
+                  <img
+                    src="./glass.png"
+                    className="h-10 w-10"
                   />
                   <span>
                     <strong className="font-semibold text-gray-900">
@@ -90,7 +86,7 @@ export default function Body() {
                 passer de bons moments, n&apos;hésite plus et rejoint Millésime!{" "}
                 <br />
                 <div className="flex justify-center pt-3">
-                  <Link href="https://discord.gg/AzMkFVF5dj">
+                  <Link href="https://discord.gg/hauVJeu7wr">
                     <p
                       onMouseOver={handleMouseOver}
                       onMouseOut={handleMouseOut}
